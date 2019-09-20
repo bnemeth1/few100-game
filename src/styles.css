@@ -1,3 +1,29 @@
-h1 {
-    color:red;
+* {
+    padding: 0;
+    margin:0;
+}
+
+.square {
+    width: 20.81%;
+    background-color: darkblue;
+    padding-bottom: 20.81%;
+    float:left;
+    margin: 2.2%;
+    border-radius: 18.9%;
+    transition: background-color 0.8s;
+    transition: border-radius 0.8s;
+}
+
+.square.winner {
+    background-color: forestgreen;
+    border-radius: 40%
+}
+
+.square.loser {
+    background-color: grey;
+    border-radius: 40%;
+}
+
+.hiddenbutton {
+  visibility: hidden;
 }
